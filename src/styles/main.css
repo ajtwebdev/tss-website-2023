@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500;600;700&display=swap');
 
 /* global */
 :root {
-  --ff: 'Playfair Display', serif;
+  --ff-heading: 'Anton', sans-serif; 
+  --ff-body: 'Muli', sans-serif; 
 
   --fw-100: 100;
   --fw-300: 300;
@@ -74,7 +77,7 @@ html {
 }
 
 body {
-  font-family: var(--ff);
+  font-family: var(--ff-body);
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -110,6 +113,18 @@ hr {
 }
 
 /* typography */
+.title,
+.title--bold,
+.heading {
+  font-family: var(--ff-heading);
+}
+
+.body--large,
+.body--small,
+.body--xs {
+  font-family: var(--ff-body);
+}
+
 .title {
   font-size: var(--fs-1);
   font-weight: var(--fw-300);
@@ -121,7 +136,6 @@ hr {
   font-size: var(--fs-1);
   font-weight: var(--fw-700);
   text-transform: capitalize;
-
   line-height: 1.1;
 }
 
@@ -180,21 +194,27 @@ hr {
 .spacing > * + * {
   margin-top: var(--spacer);
 }
+
 .spacing-md > * + * {
   margin-top: var(--spacer-md);
 }
+
 .spacing-lg > * + * {
   margin-top: var(--spacer-lg);
 }
+
 .spacing-all > * {
   margin-top: var(--spacer);
 }
+
 .section-splitter-bottom {
   padding-bottom: 7em;
 }
+
 .section-splitter-top {
   padding-top: 7em;
 }
+
 @media screen and (max-width: 450px) {
   .section-splitter-bottom {
     padding-bottom: 4em;
@@ -210,7 +230,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
 }
 
 .center {
