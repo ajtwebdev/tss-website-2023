@@ -8,6 +8,7 @@ import Daniela from "../images/team/daniela-valle-headshot-circle.jpg"
 import Hailey from "../images/team/hailey-headshot-circle.jpg"
 import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
 import Tabitha from "../images/team/tabitha-headshot.jpg"
+import Mackenzie from "../images/team/mackenzie-headshot.png"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
@@ -71,7 +72,14 @@ const TeamMember = props => {
   return (
     <Wrapper>
       <Flex>
-        <img className="headshot-img-desktop" src={props.img} alt={props.alt} />
+        <img
+          className="headshot-img-desktop"
+          style={{
+            height: props?.height,
+          }}
+          src={props.img}
+          alt={props.alt}
+        />
         <Text>
           <div>
             <h3 className="headline accent">{props.name}</h3>
@@ -223,6 +231,17 @@ daughter, Indiana."
               course
               coming up with new and creative ways to continue to create meaningful content for
               clients."
+            />
+
+            <TeamMember
+              img={Mackenzie}
+              alt="Mackenzie - Graphic Design + Content Creation"
+              name="Mackenzie Little"
+              role="Graphic Design + Content Creation"
+              mailto="mailto: mackenzie@thesocialsoulpreneur.com"
+              email="mackenzie@thesocialsoulpreneur.com"
+              description=""
+              height="400px"
             />
             <TeamMember
               img={Tabitha}
