@@ -8,7 +8,7 @@ import Daniela from "../images/team/daniela-valle-headshot-circle.jpg"
 import Hailey from "../images/team/hailey-headshot-circle.jpg"
 import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
 import Tabitha from "../images/team/tabitha-headshot.jpg"
-import Mackenzie from "../images/team/mackenzie-headshot.png"
+import Mackenzie from "../images/team/mackenzie-headshot.jpg"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
@@ -76,6 +76,7 @@ const TeamMember = props => {
           className="headshot-img-desktop"
           style={{
             height: props?.height,
+            objectPosition: props?.objectPosition,
           }}
           src={props.img}
           alt={props.alt}
@@ -240,8 +241,9 @@ daughter, Indiana."
               role="Graphic Design + Content Creation"
               mailto="mailto: mackenzie@thesocialsoulpreneur.com"
               email="mackenzie@thesocialsoulpreneur.com"
-              description=""
+              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
               height="400px"
+              objectPosition="right"
             />
             <TeamMember
               img={Tabitha}
