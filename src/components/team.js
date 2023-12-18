@@ -241,7 +241,28 @@ daughter, Indiana."
               role="Graphic Design + Content Creation"
               mailto="mailto: mackenzie@thesocialsoulpreneur.com"
               email="mackenzie@thesocialsoulpreneur.com"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              description=" As
+                    long as she can remember, Mackenzie has been an enthusiast of all 
+                  things art. From creating, to simply appreciating, there lies a deep 
+                  connection to the world of art. She is fascinated by how ever-evolving 
+                  the design world is, through technology and trends. This makes working 
+                  at TSS a good fit, as each day is a new endeavour while persistently 
+                  striving to offer unrivalled quality to clients! Mackenzie is a strong 
+                  believer that together, design and marketing work can be extremely 
+                  effective. One of the aspects of the creative industry that intrigues 
+                  Mackenzie the most is its encompassing nature. Being able to bring 
+                  creative tools together in order to make an impact, create communication
+                    and ignite ideas allows one to stand out in this industry. Utilizing 
+                  this to create a powerful means of communication that can evoke 
+                  emotions, convey messages, and inspire change. Mackenzie is currently 
+                  completing a graphic design program at Yorkville University, 
+                  specializing in branding and interactive design. She has always been 
+                  interested in business and the marketing side of things, showing 
+                  entrepreneurial spirit throughout her life and in different capacities. 
+                  Additionally a local and small business enthusiast, with a great 
+                  appreciation for the extra love that handmade has. Creatively 
+                  cultivating assets of both marketing and design, Mackenzie works towards
+                    being versatile and impactful on each project she takes on."
               height="400px"
               objectPosition="right"
             />
