@@ -8,6 +8,7 @@ import Daniela from "../images/team/daniela-valle-headshot-circle.jpg"
 import Hailey from "../images/team/hailey-headshot-circle.jpg"
 import Karen from "../images/team/karen-hastie-headshot-circle.jpg"
 import Tabitha from "../images/team/tabitha-headshot.jpg"
+import Mackenzie from "../images/team/mackenzie-headshot.jpg"
 import { AnchorInline, AnchorUnderline, ButtonInline } from "./buttons"
 
 const TeamWrapper = styled.div`
@@ -71,7 +72,15 @@ const TeamMember = props => {
   return (
     <Wrapper>
       <Flex>
-        <img className="headshot-img-desktop" src={props.img} alt={props.alt} />
+        <img
+          className="headshot-img-desktop"
+          style={{
+            height: props?.height,
+            objectPosition: props?.objectPosition,
+          }}
+          src={props.img}
+          alt={props.alt}
+        />
         <Text>
           <div>
             <h3 className="headline accent">{props.name}</h3>
@@ -223,6 +232,39 @@ daughter, Indiana."
               course
               coming up with new and creative ways to continue to create meaningful content for
               clients."
+            />
+
+            <TeamMember
+              img={Mackenzie}
+              alt="Mackenzie - Graphic Design + Content Creation"
+              name="Mackenzie Little"
+              role="Graphic Design + Content Creation"
+              mailto="mailto: mackenzie@thesocialsoulpreneur.com"
+              email="mackenzie@thesocialsoulpreneur.com"
+              description=" As
+                    long as she can remember, Mackenzie has been an enthusiast of all 
+                  things art. From creating, to simply appreciating, there lies a deep 
+                  connection to the world of art. She is fascinated by how ever-evolving 
+                  the design world is, through technology and trends. This makes working 
+                  at TSS a good fit, as each day is a new endeavour while persistently 
+                  striving to offer unrivalled quality to clients! Mackenzie is a strong 
+                  believer that together, design and marketing work can be extremely 
+                  effective. One of the aspects of the creative industry that intrigues 
+                  Mackenzie the most is its encompassing nature. Being able to bring 
+                  creative tools together in order to make an impact, create communication
+                    and ignite ideas allows one to stand out in this industry. Utilizing 
+                  this to create a powerful means of communication that can evoke 
+                  emotions, convey messages, and inspire change. Mackenzie is currently 
+                  completing a graphic design program at Yorkville University, 
+                  specializing in branding and interactive design. She has always been 
+                  interested in business and the marketing side of things, showing 
+                  entrepreneurial spirit throughout her life and in different capacities. 
+                  Additionally a local and small business enthusiast, with a great 
+                  appreciation for the extra love that handmade has. Creatively 
+                  cultivating assets of both marketing and design, Mackenzie works towards
+                    being versatile and impactful on each project she takes on."
+              height="400px"
+              objectPosition="right"
             />
             <TeamMember
               img={Tabitha}

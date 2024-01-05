@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Container, GridAuto, Section } from "./layoutComponents"
 
 const Wrapper = styled.div`
-  background: url("../../images/clients-bg-pink-1.jpg"), rgba(0, 0, 0, 0.3);
+  background: url("../../images/client-bg-pink-2.png"), rgba(0, 0, 0, 0.3);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   color: var(--txt-light);
   display: grid;
   place-items: center;
-  min-height: 600px;
+  min-height: 750px;
 `
 
 const Text = styled.div`
